@@ -23,3 +23,7 @@ platform:
 fips: false
 pullSecret: ''
 sshKey: "ssh-ed25519 AAAA..."
+proxy:
+  httpProxy: "http://192.168.22.1:3128"
+  httpsProxy: "https://192.168.22.1:3128"
+  noProxy: "*.ocp.lan,localhost,127.0.0.1"
